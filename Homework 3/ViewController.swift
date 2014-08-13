@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.createPeople()
+        self.myFunction() //this is a test to print from function outside of this function.
         // Do any additional setup after loading the view, typically from a nib.
     }
     func createPeople() {
@@ -39,6 +40,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.people = peopleInClass
         
     }
+    
+    func myFunction(){
+        println("In my function")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -48,7 +54,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if segue.identifier == "showNext" {
             
             let destination = segue.destinationViewController as DetailViewController
-            destination.people2 = people [tableView!.indexPathForSelectedRow().row]
+            destination.people2 = people [tableView!.indexPathForSelectedRow().row] //people2 in detailVC
         }
     }
     
@@ -61,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         //get my cell
-        println("method called for cell at row:\(indexPath.row)")
+        println("method called for cell at row:\(indexPath.row)") //gets to cell i want to operate on
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         //configure it for the row
         var personForRow = self.people[indexPath.row]

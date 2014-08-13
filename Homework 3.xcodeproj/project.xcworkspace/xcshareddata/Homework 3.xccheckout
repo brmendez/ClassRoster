@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0B8FDC44-0711-4B81-9523-8BC607A09262</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Homework 3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F7EF2C3C21126D7A10E8BA54EF51C1D592E1ED4</key>
+		<string>https://github.com/brmendez/F2iOSHW1.git</string>
+		<key>E2D4B90D2F72B3DC5BA6CA7886897321E76ED65D</key>
+		<string>https://github.com/brmendez/ClassRoster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homework 3.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F7EF2C3C21126D7A10E8BA54EF51C1D592E1ED4</key>
+		<string>../../..</string>
+		<key>E2D4B90D2F72B3DC5BA6CA7886897321E76ED65D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brmendez/ClassRoster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2D4B90D2F72B3DC5BA6CA7886897321E76ED65D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F7EF2C3C21126D7A10E8BA54EF51C1D592E1ED4</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2D4B90D2F72B3DC5BA6CA7886897321E76ED65D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ClassRoster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
