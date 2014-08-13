@@ -28,7 +28,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var elvis = Person(firstName: "Elvis", lastName: "Presley")
         var santa = Person(firstName: "Santa", lastName: "Claus")
         
-        
 //        self.people.append(brad)
 //        self.people.append(clem)
 //        self.people.append(russell)
@@ -38,7 +37,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         var peopleInClass = [brad, clem, russell, sherman, elvis, santa]
         self.people = peopleInClass
-        
         
     }
     override func didReceiveMemoryWarning() {
@@ -74,6 +72,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         println(indexPath.section)
     }
-    
     
 }
